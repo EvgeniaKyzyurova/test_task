@@ -1,0 +1,21 @@
+.container{
+  display: flex;
+  justify-content: center;
+}
+.form{
+    padding: 20px;
+    border: 5px solid rgb(241, 90, 20);
+    border-radius: 20%;
+    background: linear-gradient(45deg, #f3b557 40%, #ec8b1b 80%);
+}
+.row{
+    display: flex;
+    align-content: center;
+    padding: 10px;
+}
+.input{
+    margin-left: 10px;
+}
+.result{
+    margin-left: 10px;
+}

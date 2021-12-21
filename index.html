@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>task - form</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <div class="container">
+            <form class='form'>
+                <div class="row">
+                    <label for="firstnumber">First number  </label>
+                    <div class="input">
+                        <input type="number" id="firstnumber" name="firstnumber" placeholder="First number" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="secondnumber" class="">Second number  </label>
+                    <div class="input">
+                        <input type="number" id="secondnumber" name="secondnumber" placeholder="Second number" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="operation" >Выберете операцию  </label>
+                    <select class="input" id="operation" required>
+                        <option value="+"> + </option>
+                        <option value="-"> - </option>
+                        <option value="*"> * </option>
+                        <option value="/"> / </option>
+                    </select>
+                </div>
+                <div class="row">
+                    <button type = "button" class="button"> = </button>
+                    <div class="result"></div>
+                </div>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
